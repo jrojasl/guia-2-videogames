@@ -21,7 +21,7 @@ public class VirtualDPad : MonoBehaviour
         if(Input.touchCount > 0)
         {
             theTouch = Input.GetTouch(0);
-            if(theTouch.phase == TouchPhase)
+            if(theTouch.phase == TouchPhase.Began) 
             {
                 touchStartPosition = theTouch.position;
             }

@@ -357,9 +357,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/Scripts/aceleremoter.cs"
 "Assets/Scripts/MultiTouch.cs"
 "Assets/Scripts/Navegation.cs"
-"Assets/Scripts/TouchPhase.cs"
+"Assets/Scripts/touchScript.cs"
 "Assets/Scripts/VirtualDPad.cs"
 -langversion:9.0
 
