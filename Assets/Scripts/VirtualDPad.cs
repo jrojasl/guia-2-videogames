@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class VirtualDPad : MonoBehaviour
 {
-    public TextMeshProUGUI directionText, touchcount;
+    public TextMeshProUGUI directionText, touchcount, value;
     private Touch theTouch;
     private Vector2 touchStartPosition, touchEndPosition;
     private string direction;
@@ -42,6 +42,7 @@ public class VirtualDPad : MonoBehaviour
                 {
                     direction = y > 0 ? "Up" : "Down";
                 }
+                value.SetText("x: " + (x/500).ToString() + " y:" + (y/500).ToString());
             }
         }
         directionText.SetText(direction);
